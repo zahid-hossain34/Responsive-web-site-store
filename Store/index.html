@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+    <!-- Boostrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- fontawsome cdn -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <!-- slik cdn -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+    <!-- css file -->
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+   
+        <!-- nav bar -->
+        <div class="container-fluid p-0 ">
+               <div class="container  " style="margin-top: 75px;">
+            <div class="row">
+                <div class=" col-md-4 col-sm-12 col-12">
+                    <div class="dropdown">
+                        <button class="btn border my-md-4 my-2 text-white dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          USD
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">EUR-Euro</a></li>
+                          <li><a class="dropdown-item" href="#">BDT-Taka</a></li>
+                          
+                        </ul>
+                      </div>
+                </div>
+                <div class="col-md-4 col-12 text-center ">
+                    <h2 class="my-md-3 site-title primary-color">Online Store </h2>
+                    <h2 class="decore">home decore</h2>
+                </div>
+                <div class="col-md-4 col-12 text-right ">
+                    <p class="my-md-4 header-links">
+                        <a href="#" class="px-2">Sign In</a>
+                        <a href="#" class="px-1">Create an Account</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light scrolling-navbar p-0">
+                <div class="container-fluid nav-border">
+                 
+                  <button class="navbar-toggler border-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#carouselExampleControls">NEW ARRIVAL</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">SHOP</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">CATAGORIES <i class="fas fa-caret-down"></i></a>
+                            <ul>
+                              <li><a href="">FURNITURES  <i class="fas fa-caret-right"></i></a>
+                                <ul>
+                                  <li><a href="" >SOFA</a></li>
+                                  <li><a href="">CHAIR</a></li>
+                                  <li><a href="">TABLE</a></li>
+                                  <li><a href="">WARDROBE</a></li>
+                                </ul>
+                              
+                              </li>
+                              <li><a href="">KITCHEN ITEM <i class="fas fa-caret-right"></i></a>
+                                <ul>
+                                  <li><a href="">COOKWARE</a></li>
+                                  <li><a href="">APPLIANCES</a></li>
+                                  <li><a href="">COOKING TOOLS</a></li>
+                                </ul>
+                              </li>
+
+                              <li><a href="">SHOWPIECES</a></li>
+                              <li><a href="">OTHERS</a></li>
+                            </ul>
+                        </li>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT US</a>
+                      </li>
+                    
+                    </ul>
+                  </div>
+                  <div class="navbar-nav">
+                      <li class="nav-item  mx-2 search-icon">
+                        <i class="fas fa-search p-2"></i>
+                      </li>
+                      <li class="nav-item  mx-2 cart-icon">
+                        <i class="fas fa-cart-plus p-2"></i>
+                      </li>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+    <!-- end of header -->
+    <!-- main -->
+    <main>
+
+        <!-- first slider -->
+        <div class="container-fluid p-0">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+
+                <img src="item1.jpg" class="w-100" style="height: 800px;"  alt="...">
+                <div class="carousel-caption d-sm-block d-md-block">
+                  <button type="button" class="btn btn-lg">Order Now</button>
+                  <h5 >30%</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="item2.jpg" class="w-100" style="height: 800px;"  alt="...">
+                <div class="carousel-caption d-sm-block d-md-block">
+                  <button type="button" class="btn btn-lg ">Order Now</button>
+                  <h5>30%</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="item3.jpg" class="w-100" style="height: 800px;" alt="...">
+                <div class="carousel-caption d-sm-block d-md-block">
+                  <button type="button" class="btn btn-lg">Order Now</button>
+                  <h5 >30%</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <!--  end first slider -->
+<!-- all product -->
+  <div class="container-fluid all-product  ">
+  <h2>ALL PRODUCT</h2>
+  <a href="#" class="seemore">See more...</a>
+  <div class="row">
+    <div class="col-md-4 col-lg-3 col-sm-6 cart-1">
+      <div class="product-top">
+        <img src="sofa.jpg" style="width: 300px; height: 450px;" alt="">
+        <div class="overlay">
+          <button type="button" class="btn btn-secondary" title="wishlist" ><i class="far fa-heart"></i></button>
+          <button type="button" class="btn btn-secondary" title="add to cart" ><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </div>
+      <div class="product-bottom text-center">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <h3>Upholstered favric Sofa</h3>
+        <h5><del class="text-warning">$519.99 </del></h5>
+        <H4>$499</H4>
+      </div>
+    </div>
+    <div class="col-md-4 col-lg-3 col-sm-6 cart-1">
+      <div class="product-top">
+        <img src="p1.jpg" style="width: 300px; height: 350px;"  alt="">
+        <div class="overlay">
+          <button type="button" class="btn btn-secondary" title="wishlist" ><i class="far fa-heart"></i></button>
+          <button type="button" class="btn btn-secondary" title="add to cart" ><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </div>
+      <div class="product-bottom text-center">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+       
+        <h3> Table Lamp</h3>
+        <h5><del class="text-warning">$319.99 </del></h5>
+        <H4>$215.99</H4>
+      </div>
+    </div>
+    <div class="col-md-4 col-lg-3 col-sm-6 cart-1">
+      <div class="product-top">
+        <img src="p2.jpg" style="width: 300px; height: 350px;"  alt="">
+        <div class="overlay">
+          <button type="button" class="btn btn-secondary" title="wishlist" ><i class="far fa-heart"></i></button>
+          <button type="button" class="btn btn-secondary" title="add to cart" ><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </div>
+      <div class="product-bottom text-center">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <h3>Single Sofa</h3>
+        <h5><del class="text-warning">$419.99 </del></h5>
+        <H4>$325.99</H4>
+      </div>
+    </div>
+    <div class="col-md-4 col-lg-3 col-sm-6 cart-1">
+      <div class="product-top">
+        <img src="p3.jpg" style="width: 300px; height: 350px;"  alt="">
+        <div class="overlay">
+          <button type="button" class="btn btn-secondary" title="wishlist" ><i class="far fa-heart"></i></button>
+          <button type="button" class="btn btn-secondary" title="add to cart" ><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </div>
+      <div class="product-bottom text-center">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <h3>Electrical Cattle</h3>
+        <h5><del class="text-warning">$219.99 </del></h5>
+        <h4>$155.99</h4>
+      </div>
+    </div>
+  </div>
+<!-- row 2 -->
+  <div class="row layer-2">
+    <div class="col-md-4 col-lg-3 col-sm-6 cart-1">
+      <div class="product-top">
+        <img src="sofa.jpg" style="width: 300px; height: 350px;" alt="">
+        <div class="overlay">
+          <button type="button" class="btn btn-secondary" title="wishlist" ><i class="far fa-heart"></i></button>
+          <button type="button" class="btn btn-secondary" title="add to cart" ><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </div>
+      <div class="product-bottom text-center">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <h3>Upholstered favric Sofa</h3>
+        <h5><del class="text-warning">$519.99 </del></h5>
+        <H4>$499</H4>
+      </div>
+    </div>
+    <div class="col-md-4 col-lg-3 col-sm-6 cart-1">
+      <div class="product-top">
+        <img src="p1.jpg" style="width: 300px; height: 350px;"  alt="">
+        <div class="overlay">
+          <button type="button" class="btn btn-secondary" title="wishlist" ><i class="far fa-heart"></i></button>
+          <button type="button" class="btn btn-secondary" title="add to cart" ><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </div>
+      <div class="product-bottom text-center">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+       
+        <h3> Table Lamp</h3>
+        <h5><del class="text-warning">$319.99 </del></h5>
+        <H4>$215.99</H4>
+      </div>
+    </div>
+    <div class="col-md-4 col-lg-3 col-sm-6 cart-1">
+      <div class="product-top">
+        <img src="p2.jpg" style="width: 300px; height: 350px;"  alt="">
+        <div class="overlay">
+          <button type="button" class="btn btn-secondary" title="wishlist" ><i class="far fa-heart"></i></button>
+          <button type="button" class="btn btn-secondary" title="add to cart" ><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </div>
+      <div class="product-bottom text-center">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <h3>Single Sofa</h3>
+        <h5><del class="text-warning">$419.99 </del></h5>
+        <H4>$325.99</H4>
+      </div>
+    </div>
+    <div class="col-md-4 col-lg-3 col-sm-6 cart-1">
+      <div class="product-top">
+        <img src="p3.jpg" style="width: 300px; height: 350px;"  alt="">
+        <div class="overlay">
+          <button type="button" class="btn btn-secondary" title="wishlist" ><i class="far fa-heart"></i></button>
+          <button type="button" class="btn btn-secondary" title="add to cart" ><i class="fas fa-cart-plus"></i></button>
+        </div>
+      </div>
+      <div class="product-bottom text-center">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <h3>Electrical Cattle</h3>
+        <h5><del class="text-warning">$219.99 </del></h5>
+        <h4>$155.99</h4>
+      </div>
+    </div>
+  </div>
+<!--  end row-2  -->
+
+<!-- end all product -->
+        <!-- info -->
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-12 text-center mt-5 txt">
+              <h1> NEW PRODUCTS</h1>
+              <h5>BIG OFFER <span class="badge bg-warning">30%</span></h5>
+            </div>
+          </div>
+        </div>
+        <!-- prodcut slider -->
+        <div id="carouselExampleControls" class="carousel slide  " data-bs-ride="carousel">
+          <div class="carousel-inner ">
+            <div class="carousel-item active">
+              
+              <div class="p1">
+                <h5>Lamp</h5>
+                <a href="#">Order Now</a>
+              <img src="p1.jpg" class="w-400px  " style="height: 400px;margin: 40px 40px 0 430px;" alt="...">
+            </div>
+            <div class="p2">
+              <h5>Chair</h5>
+              <a href="#">Order Now</a>
+            <img src="p2.jpg" class="w-400px " style="height: 400px;margin:40px 40px 0 40px" alt="...">
+          </div>
+              
+          <div class="p3">
+            <h5>Cattle</h5>
+            <a href="#">Order Now</a>
+          <img src="p3.jpg" class="w-400px " style="height: 400px;margin:40px 0 0 40px" alt="...">
+        </div>
+      
+              
+            </div>
+
+            <div class="carousel-item">
+              <div class="p1">
+                <h5>Blander</h5>
+                <a href="#">Order Now</a>
+              <img src="p4.jpg" class="w-400px " style="height: 400px;margin:40px 40px 0 430px;" alt="...">
+            </div>
+            <div class="p2">
+              <h5>Chair</h5>
+              <a href="#">Order Now</a>
+            <img src="p2.jpg" class="w-400px " style="height: 400px;margin:40px 40px 0 40px" alt="...">
+          </div>
+              
+          <div class="p3">
+            <h5>Lamp</h5>
+            <a href="#">Order Now</a>
+          <img src="p1.jpg" class="w-400px " style="height: 400px;margin:40px 100px 0 40px" alt="...">
+        </div>
+              
+            </div>    
+             <div class="carousel-item">
+              <div class="p1">
+                <h5>Blander</h5>
+                <a href="#">Order Now</a>
+              <img src="p4.jpg" class="w-400px " style="height: 400px;margin:40px 40px 0 430px;" alt="...">
+            </div>
+            <div class="p2">
+              <h5>Chair</h5>
+              <a href="#">Order Now</a>
+            <img src="p2.jpg" class="w-400px " style="height: 400px;margin:40px 40px 0 40px" alt="...">
+          </div>
+              
+          <div class="p3">
+            <h5>Cattle</h5>
+            <a href="#">Order Now</a>
+          <img src="p3.jpg" class="w-400px " style="height: 400px;margin:40px 100px 0 40px" alt="...">
+        </div>
+              
+            </div>
+          </div>
+          <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-warning rounded-circle" aria-hidden="true"></span>
+            <span class="visually-hidden ">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-warning rounded-circle" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- end product slider -->
+        <!-- info -->
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-12 text-center mt-5 txt">
+              <h1> NEW ARRIVAL</h1>
+              <h5>BIG OFFER <span class="badge bg-warning">30%</span></h5>
+            </div>
+          </div>
+        </div>
+        <!-- new item slider -->
+        <div id="carouselExampleIndicators" class="carousel slide bg-light item-slider" data-bs-ride="carousel">
+        
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="first d-flex flex-row">
+              <div class="item ">
+                <img src="sofa.jpg" class=" w-150px" style="height:300px;" alt="...">
+              </div>
+                <div class="data">
+                  <h1>Upholstered favric Sofa <span class="badge bg-warning">New</span> </h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati <br> saepe consequatur aut accusamus, voluptatum sunt quasi ea <br> odit corrupti ducimus.</p>
+                  <i class="fas fa-star text-info"></i>
+                  <i class="fas fa-star text-info"></i>
+                  <i class="fas fa-star text-info"></i>
+                  <i class="fas fa-star text-info"></i>
+                  <i class="fas fa-star text-info"></i>
+                  <h4><del class="text-warning">$519.99 </del>$499.0 </h4>
+                  <a href="#">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <div class="first d-flex flex-row">
+              <div class="item">
+                <img src="sofa2.jpg" class=" w-150px" style="height:300px;" alt="...">
+              </div>
+                <div class="data">
+                  <h1>Upholstered favric Sofa <span class="badge bg-warning">New</span></h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati <br> saepe consequatur aut accusamus, voluptatum sunt quasi ea <br> odit corrupti ducimus.</p>
+                  <i class="fas fa-star text-info"></i>
+                  <i class="fas fa-star text-info"></i>
+                  <i class="fas fa-star text-info"></i>
+                  <i class="fas fa-star text-info"></i>
+                  <i class="fas fa-star text-info"></i>
+                  <h4><del class="text-warning">$519.99 </del>$499.0 </h4>
+                  <a href="#">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <div class="first d-flex flex-row">
+              <div class="item">
+                <img src="sofa3.jpg" class=" w-150px" style="height:300px;" alt="...">
+              </div>
+                <div class="data">
+                  <h1>Upholstered favric Sofa <span class="badge bg-warning">New</span> </h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati <br> saepe consequatur aut accusamus, voluptatum sunt quasi ea <br> odit corrupti ducimus.</p>
+                  <i class="fas fa-star text-info"></i>
+                  <i class="fas fa-star text-info"></i>
+                  <i class="fas fa-star text-info"></i>
+                  <i class="fas fa-star text-info"></i>
+                  <i class="fas fa-star text-info"></i>
+                  <h4><del class="text-warning">$519.99 </del>$499.0 </h4>
+                  <a href="#">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-warning rounded-circle" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-warning rounded-circle" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- end new item slider -->
+        <!-- sticky icons -->
+        <div class="icons">
+          <ul>
+            <a href="#"><li class="fb"><i class="fab fa-facebook-square"></i></li></a>
+            <a href="#"><li class="insta"><i class="fab fa-instagram-square"></i></li></a>
+            <a href="#"><li class="tw"><i class="fab fa-twitter-square"></i></li></a>
+            <a href="#"><li class="li"><i class="fab fa-linkedin"></i></li></a>
+            
+          </ul>
+
+        </div>
+        <div class="gotop">
+          <a href="#"><i class="fas fa-arrow-up"></i></a>
+        </div>
+        
+        <!-- end sticky icopns -->
+    </main>
+    <!--end main -->
+
+
+
+
+  
+        <!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptatibus quidem et molestiae quas pariatur ullam est culpa vel omnis! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores hic officia ducimus laudantium nemo accusantium nulla nam quidem quasi porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta architecto neque excepturi nostrum nulla harum assumenda facere odio veritatis quis?</p>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Categories</h6>
+            <ul class="footer-links">
+              
+              <li><a href="#">Furnitures</a></li>
+              <li><a href="#">Kitchen Items</a></li>
+              <li><a href="#">SHOWPIECES</a></li>
+              <li><a href="#">OTHERS</a></li>
+              
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Contribute</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Sitemap</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
+         <a href="#">Zahid.Hossain</a>.
+            </p>
+          </div>
+
+         
+        </div>
+      </div>
+</footer>
+   
+
+
+
+
+
+
+
+
+
+   
+    
+    <!-- js cdn -->
+    <script
+     src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+     integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+     crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    <!-- end js cdn -->
+     <!-- slikcdn js -->
+     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+     <!-- js file -->
+     <link rel="stylesheet" href="main.js">
+</body>
+</html>
